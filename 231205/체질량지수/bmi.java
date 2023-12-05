@@ -12,7 +12,7 @@ public class Main {
             System.out.println((int)bmi);
             System.out.print("Obesity");
         } else {
-            System.out.print(bmi);
+            System.out.print((int)bmi);
         }
     }
 }
