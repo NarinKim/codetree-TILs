@@ -6,7 +6,7 @@ public class Main {
         int n = sc.nextInt();
         int n2 = sc.nextInt();
 
-        if(n < n2) {
+        if(n <= n2) {
             System.out.println(n2-n);
         } else if(n > n2) {
              System.out.println(n-n2);
