@@ -6,7 +6,7 @@ public class Main {
         int n = sc.nextInt(); // 키
         int sqaure =n*n;
 
-        if(sqaure < 5) {
+        if(n < 5) {
             System.out.println(sqaure);
             System.out.print("tiny");
         } else {
