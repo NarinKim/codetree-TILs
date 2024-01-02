@@ -7,18 +7,30 @@ public class Main {
         int b = sc.nextInt();
         int c = sc.nextInt();
         int d = sc.nextInt();
+        int e = sc.nextInt();
 
-
-        if(a>=b) {
-            System.out.println("even");
+        if(a>b) {
+            System.out.println("1");
         } else {
-            System.out.println("odd");
+            System.out.println("0");
         }
 
-         if(b%2 == 0) {
-            System.out.println("even");
+        if(a>c) {
+            System.out.println("1");
         } else {
-            System.out.println("odd");
+            System.out.println("0");
+        }
+
+        if(a>d) {
+            System.out.println("1");
+        } else {
+            System.out.println("0");
+        }
+
+        if(a>e) {
+            System.out.println("1");
+        } else {
+            System.out.println("0");
         }
     }
 }
