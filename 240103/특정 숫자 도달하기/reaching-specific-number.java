@@ -14,7 +14,7 @@ public class Main {
                 sum+=arr[i];
             } else break;
         }
-        avg = ((double)sum/i)*10/10;
-        System.out.print(sum +" "+avg);
+        avg = (double)sum/i;
+        System.out.printf("%d %.1f", sum, avg);
     }
 }
