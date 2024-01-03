@@ -13,7 +13,7 @@ public class Main {
             arr[i] = sc.nextInt();
         }
 
-        for(int i=0; i<=arr.length; i++){
+        for(int i=0; i<arr.length; i++){
             if(arr[i] >= 250) break;
             sum += arr[i];
             cnt++;
