@@ -5,16 +5,19 @@ public class Main {
         
         Scanner sc = new Scanner(System.in);
         int [] arr = new int[10];
-        int sum=0;
+        int sum, cnt =0;
         double avg = 0;
-        int i;
-        for(i=0; i<=arr.length; i++){
+
+        for(int i=0; i<=arr.length; i++){
             arr[i] = sc.nextInt();
-            if(arr[i] < 250) {
-                sum+=arr[i];
-            } else break;
         }
-        avg = (double)sum/i;
+
+        for(int i=0; i<=arr.length; i++){
+            if(arr[i] >= 250) break;
+            sum += arr[i];
+            cnt++;
+        }
+        avg = (double)sum/cnt;
         System.out.printf("%d %.1f", sum, avg);
     }
 }
