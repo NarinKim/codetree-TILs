@@ -15,7 +15,7 @@ public class Main {
                 arr[j] = sc.nextInt();
                 sum+= arr[i];
             }
-            int avg = sum/4;
+            double avg = (double)sum/4;
             if(avg>=60) {
                 System.out.println("pass");
                 person++;
